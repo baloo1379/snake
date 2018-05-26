@@ -1,0 +1,44 @@
+.board {
+  width: 600px;
+  height: 600px;
+  background-color: lightgrey;
+  position: absolute;
+}
+
+.fruit {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.snake {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+}
+
+button {
+  position: absolute;
+}
+
+.start{
+  left: 620px;
+}
+
+.stop{
+  left: 670px;
+}
+
+.run {
+  left: 680px;
+}
+
+.score {
+  position: absolute;
+  left: 620px;
+  top: 40px;
+  background-color: #EEE;
+}
